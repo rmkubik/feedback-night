@@ -1,3 +1,10 @@
+{% macro header() %}
+    <a href="/">
+        <img src="/images/feedback-banner.jpeg" />
+    </a>
+    <h1>Feedback Night</h1>
+{% endmacro %}
+
 {% macro projectCard(project) %}
     <li class="card">
         <a
@@ -15,9 +22,13 @@
     </li>
 {% endmacro %}
 
-{% macro eventSummary(event) %}
+{% macro eventSummary(event, linkEvent=false) %}
     <section id="{{ event.name | slug }}-{{ event.date }}">
-        <h3>{{ event.name }}, {{ event.date | formatTitleDate }}</h3>
+        {% if linkEvent %}
+            <h3><a href="/events/{{ event.date }}">{{ event.name }}, {{ event.date | formatTitleDate }}</a></h3>
+        {% else %}
+            <h3>{{ event.name }}, {{ event.date | formatTitleDate }}</h3>
+        {% endif %}
         <div class="event-information">
             <p> <strong>Where:</strong> {{ event.location }} </p>
             <p>

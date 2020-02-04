@@ -9,5 +9,10 @@ permalink: "events/{{event.date | slug }}/"
 tags:
     - events
 ---
+{% import "macros.njk" as macro with context %} 
 
-<h1> {{event.name}}, {{event.date}} </h1>
+<main>
+    {{ macro.header() }}
+
+    {{ macro.eventSummary(event, false) }}
+</main>

@@ -1,11 +1,10 @@
 ---
 layout: layout.njk
 ---
-{% import "macros.njk" as macro with context %} 
+{% import "macros.njk" as macro with context %}
 
 <main>
-    <img src="./images/feedback-banner.jpeg" />
-    <h1>Feedback Night</h1>
+    {{ macro.header() }}
 
     <p>
         Do you want to <strong>GET</strong> feedback on a game you're working
@@ -51,7 +50,7 @@ layout: layout.njk
 
     <h2 id="next-event">Next Event</h2>
     {% IfFutureDate events[0].date %}
-        {{ macro.eventSummary(events[0]) }}
+        {{ macro.eventSummary(events[0], true) }}
     {% endIfFutureDate %}
     {% IfPastDate events[0].date %}
         <p>The next event has not been scheduled yet... Check back later!</p>
@@ -61,11 +60,11 @@ layout: layout.njk
 
     <h2 id="past-events">Past Events</h2>
     {% IfPastDate events[0].date %}
-        {{ macro.eventSummary(events[0]) }}
+        {{ macro.eventSummary(events[0], true) }}
     {% endIfPastDate %}
 
     {%- for event in events.slice(1) -%}
-        {{ macro.eventSummary(event) }}
+        {{ macro.eventSummary(event, true) }}
 
         <hr />
     {%- endfor -%}
