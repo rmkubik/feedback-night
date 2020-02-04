@@ -34,6 +34,6 @@ module.exports = function(eleventyConfig) {
 
   return {
     passthroughFileCopy: true,
-    pathPrefix: "/feedback-night-test"
+    pathPrefix: "/feedback-night"
   };
 };
