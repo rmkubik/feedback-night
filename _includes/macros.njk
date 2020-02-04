@@ -1,0 +1,54 @@
+{% macro projectCard(project) %}
+    <li class="card">
+        <a
+            href="{{project.links.project}}"
+            data-full-img="{{project.images.main}}"
+        >
+            <img
+            alt="{{project.name}} by {{project.author}}"
+            src="{{project.images.thumbnail}}"
+            />
+        </a>
+        <p>
+            <strong>{{project.name}}</strong> by {{project.author}}
+        </p>
+    </li>
+{% endmacro %}
+
+{% macro eventSummary(event) %}
+    <section id="{{ event.name | slug }}-{{ event.date }}">
+        <h3>{{ event.name }}, {{ event.date | formatTitleDate }}</h3>
+        <div class="event-information">
+            <p> <strong>Where:</strong> {{ event.location }} </p>
+            <p>
+                <strong>When: </strong> {{- event.date | formatBodyDate -}}, {{ event.times.start }} - {{ event.times.end -}}
+            </p>
+        </div>
+        <p>
+            {{ event.description | safe }}
+        </p>
+
+
+        {% IfFutureDate event.date %}
+            <p>
+                If you are showing a project, please fill out this form so we can find
+                you and your project after the event!
+            </p>
+
+            <p class="center">
+                <a class="button" href="https://forms.gle/WFU5NE8vn5JP7MVY9">
+                    Register your project!
+                </a>
+            </p>
+        {% endIfFutureDate %}
+        <h4>Projects</h4>
+        <ul class="card-container">
+            {%- for project in event.projects -%}
+                {{ projectCard(project) }}
+            {%- endfor -%}
+        </ul>
+        <script>
+            registerLightBox('#{{ event.name | slug }}-{{ event.date }}');
+        </script>
+    </section>
+{% endmacro %}

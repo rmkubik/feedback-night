@@ -1,0 +1,13 @@
+---
+layout: layout.njk
+pagination:
+    data: events
+    size: 1
+    addAllPagesToCollections: true
+    alias: event
+permalink: "events/{{event.date | slug }}/"
+tags:
+    - events
+---
+
+<h1> {{event.name}}, {{event.date}} </h1>

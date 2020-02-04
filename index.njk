@@ -1,0 +1,71 @@
+---
+layout: layout.njk
+---
+{% import "macros.njk" as macro with context %} 
+
+<main>
+    <img src="./images/feedback-banner.jpeg" />
+    <h1>Feedback Night</h1>
+
+    <p>
+        Do you want to <strong>GET</strong> feedback on a game you're working
+        on?
+    </p>
+
+    <p>
+        Do you want to <strong>GIVE</strong> feedback on in progress video
+        games?
+    </p>
+
+    <p>
+        Come hang out with us and do <strong>either</strong> or
+        <strong>both</strong> of these!
+    </p>
+
+    <p class="center">
+        <a class="button" href="https://forms.gle/WFU5NE8vn5JP7MVY9">
+            Register your project for the next event!
+        </a>
+    </p>
+
+    <h2 id="how-it-works">How it Works</h2>
+    <p>
+        We're going to have everyone interested in getting feedback on their
+        game set up a station. Then, game owners will write down what the do and
+        do NOT want feedback on.
+        <a
+            href="https://docs.google.com/document/d/1reQhxr9rlG5FV5VgNvfdk7c58_J3FaUWzkJA4Jxgk7k/edit?usp=sharing"
+        >
+            We'll provide these forms for folks to answer those questions on!
+        </a>
+    </p>
+
+    <p>
+        Every station will be given sticky notes and a marker. For each game,
+        feedbacker givers will write down feedback on the points the demoer
+        asked for. Leave one piece of feedback per sticky note!
+        <strong>Try to leave at least one sticky note per game!</strong>
+    </p>
+
+    <hr />
+
+    <h2 id="next-event">Next Event</h2>
+    {% IfFutureDate events[0].date %}
+        {{ macro.eventSummary(events[0]) }}
+    {% endIfFutureDate %}
+    {% IfPastDate events[0].date %}
+        <p>The next event has not been scheduled yet... Check back later!</p>
+    {% endIfPastDate %}
+
+    <hr />
+
+    <h2 id="past-events">Past Events</h2>
+    {% IfPastDate events[0].date %}
+        {{ macro.eventSummary(events[0]) }}
+    {% endIfPastDate %}
+
+    {%- for event in events.slice(1) -%}
+        {{ macro.eventSummary(event) }}
+    {%- endfor -%}
+
+</main>

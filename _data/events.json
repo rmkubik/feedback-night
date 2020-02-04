@@ -1,0 +1,103 @@
+[
+  {
+    "date": "2020-02-11",
+    "times": {
+      "start": "6:00pm",
+      "end": "9:00pm"
+    },
+    "name": "Feedback Night",
+    "location": "East Side Deli on Madison",
+    "description": "We're going to be taking over the upstairs of <a href=\"https://pigsquad.com/events-list/2020/2/11/pigsquad-social-feedback-night\">the next PIGSquad Feedback Night!</a>",
+    "projects": [
+      {
+        "name": "Grim Repair",
+        "author": "Kavan Bahrami, Drew Gingerich, Ryan Kubik, Matthew Morgan, Ezra Sandzer-Bell, Oliver Smith",
+        "images": {
+          "thumbnail": "https://i.imgur.com/wqNgDpA.gif",
+          "main": "https://i.imgur.com/wqNgDpA.gif"
+        },
+        "links": {
+          "project": "https://drewtooroo.itch.io/grim-repair"
+        }
+      },
+      {
+        "name": "Wildfire Swap",
+        "author": "Ryan Kubik",
+        "images": {
+          "thumbnail": "https://wildfire.fun/static/wildire-worldmap-idle.2019-10-03%2021_33_13-02b31c0201676542698a03eab6a11729.gif",
+          "main": "https://wildfire.fun/static/wildire-worldmap-idle.2019-10-03%2021_33_13-02b31c0201676542698a03eab6a11729.gif"
+        },
+        "links": {
+          "project": "https://wildfire.fun/"
+        }
+      }
+    ]
+  },
+  {
+    "date": "2020-01-09",
+    "times": {
+      "start": "6:00pm",
+      "end": "9:00pm"
+    },
+    "name": "Feedback Night",
+    "location": "East Side Deli on Madison",
+    "description": "We're going to be taking over the upstairs of <a href=\"https://pigsquad.com/events-list/2020/1/9/pigsquad-social-feedback-night\">the next PIGSquad Feedback Night!</a>",
+    "projects": [
+      {
+        "name": "Invader Simulator",
+        "author": "Ragdoll Physicists, @Ragdolls2Riches, @MXultra",
+        "images": {
+          "thumbnail": "https://i.imgur.com/tEp1f5h.jpg",
+          "main": "https://i.imgur.com/tEp1f5h.jpg"
+        },
+        "links": {
+          "project": "https://www.invadersimulator.com/"
+        }
+      },
+      {
+        "name": "Museum of Self",
+        "author": "@JackofHart",
+        "images": {
+          "thumbnail": "https://i.imgur.com/APupa6p.png",
+          "main": "https://i.imgur.com/APupa6p.png"
+        },
+        "links": {
+          "project": "https://twitter.com/JackOfHart"
+        }
+      },
+      {
+        "name": "Wildfire Swap",
+        "author": "Ryan Kubik",
+        "images": {
+          "thumbnail": "https://wildfire.fun/static/wildire-worldmap-idle.2019-10-03%2021_33_13-02b31c0201676542698a03eab6a11729.gif",
+          "main": "https://wildfire.fun/static/wildire-worldmap-idle.2019-10-03%2021_33_13-02b31c0201676542698a03eab6a11729.gif"
+        },
+        "links": {
+          "project": "https://wildfire.fun/"
+        }
+      },
+      {
+        "name": "Code Blight",
+        "author": "REPL Games",
+        "images": {
+          "thumbnail": "https://i.imgur.com/NQXM6o3.png",
+          "main": "https://i.imgur.com/NQXM6o3.png"
+        },
+        "links": {
+          "project": "https://twitter.com/brian_cain"
+        }
+      },
+      {
+        "name": "Tooth Game 2020",
+        "author": "Eric Simon",
+        "images": {
+          "thumbnail": "https://i1.wp.com/toothgame.com/wp-content/uploads/2019/12/tooth2020promoshirt.png?resize=761%2C1024",
+          "main": "https://i1.wp.com/toothgame.com/wp-content/uploads/2019/12/tooth2020promoshirt.png?resize=761%2C1024"
+        },
+        "links": {
+          "project": "https://toothgame.com/"
+        }
+      }
+    ]
+  }
+]
