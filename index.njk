@@ -66,6 +66,8 @@ layout: layout.njk
 
     {%- for event in events.slice(1) -%}
         {{ macro.eventSummary(event) }}
+
+        <hr />
     {%- endfor -%}
 
 </main>
