@@ -49,8 +49,8 @@
         "name": "Broadcast",
         "author": "@Jonah_Lovell",
         "images": {
-          "thumbnail": "images/Broadcast%20Title.png",
-          "main": "images/Broadcast%20Title.png"
+          "thumbnail": "/images/Broadcast%20Title.png",
+          "main": "/images/Broadcast%20Title.png"
         },
         "links": {
           "project": "https://jonahdlovell.wixsite.com/broadcast"
