@@ -13,6 +13,28 @@
     "description": "We're going to be taking over the upstairs of <a href=\"https://pigsquad.com/events-list/2020/2/11/pigsquad-social-feedback-night\">the next PIGSquad Feedback Night!</a>",
     "projects": [
       {
+        "name": "Quick Craft [Prototype]",
+        "author": "Tristan Damron (@tdamgames)",
+        "images": {
+          "thumbnail": "https://i.imgur.com/15POKLT.png",
+          "main": "https://i.imgur.com/15POKLT.png"
+        },
+        "links": {
+          "project": "https://tdamron.itch.io/quick-craft"
+        }
+      },
+      {
+        "name": "Break Beats",
+        "author": "Erik Dewhurst, Dylan Ribb, Eran Haas, Jesse Holden",
+        "images": {
+          "thumbnail": "https://i.imgur.com/NUV7zL2.jpg",
+          "main": "https://i.imgur.com/NUV7zL2.jpg"
+        },
+        "links": {
+          "project": "https://globalgamejam.org/2020/games/break-beats-1"
+        }
+      },
+      {
         "name": "Grim Repair",
         "author": "Kavan Bahrami, Drew Gingerich, Ryan Kubik, Matthew Morgan, Ezra Sandzer-Bell, Oliver Smith",
         "images": {
@@ -27,8 +49,8 @@
         "name": "Broadcast",
         "author": "@Jonah_Lovell",
         "images": {
-          "thumbnail": "https://i.pinimg.com/originals/c7/fd/a1/c7fda15d5f26108c27845deb28afa9dc.jpg",
-          "main": "https://i.pinimg.com/originals/c7/fd/a1/c7fda15d5f26108c27845deb28afa9dc.jpg"
+          "thumbnail": "images/Broadcast%20Title.png",
+          "main": "images/Broadcast%20Title.png"
         },
         "links": {
           "project": "https://jonahdlovell.wixsite.com/broadcast"
