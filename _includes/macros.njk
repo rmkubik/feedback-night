@@ -9,11 +9,11 @@
     <li class="card">
         <a
             href="{{project.links.project}}"
-            data-full-img="{{project.images.main}}"
+            data-full-img="{{project.images.main | url }}"
         >
             <img
             alt="{{project.name}}{% if project.author %} by {{project.author}}{% endif %}"
-            src="{{project.images.thumbnail}}"
+            src="{{project.images.thumbnail | url }}"
             />
         </a>
         <p>
