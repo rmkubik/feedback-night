@@ -13,6 +13,17 @@
     "description": "We're going to be taking over the upstairs of <a href=\"https://pigsquad.com/events-list/2020/2/11/pigsquad-social-feedback-night\">the next PIGSquad Feedback Night!</a>",
     "projects": [
       {
+        "name": "Bug Fixers",
+        "author": "@jonapulse, @XanDrakeArt, @ZealousJade, @retropetet",
+        "images": {
+          "thumbnail": "https://img.itch.zone/aW1nLzI5NDczODkucG5n/105x83%23/i3RIA6.png",
+          "main": "https://img.itch.zone/aW1nLzI5NDczODkucG5n/105x83%23/i3RIA6.png"
+        },
+        "links": {
+          "project": "https://xancollins.itch.io/bugfixers"
+        }
+      },
+      {
         "name": "The Fantastic Mister Box",
         "author": "Christopher Lielasus Morrow",
         "images": {
