@@ -13,6 +13,28 @@
     "description": "We're going to be taking over the upstairs of <a href=\"https://pigsquad.com/events-list/2020/2/11/pigsquad-social-feedback-night\">the next PIGSquad Feedback Night!</a>",
     "projects": [
       {
+        "name": "The Fantastic Mister Box",
+        "author": "Christopher Lielasus Morrow",
+        "images": {
+          "thumbnail": "https://i.imgur.com/uj2t9Ae.png",
+          "main": "https://i.imgur.com/uj2t9Ae.png"
+        },
+        "links": {
+          "project": "http://www.deliciousempire.com/games/"
+        }
+      },
+      {
+        "name": "8 Shift Harmony",
+        "author": "@SandyPointGames",
+        "images": {
+          "thumbnail": "https://i.imgur.com/KJWQ913.png",
+          "main": "https://i.imgur.com/KJWQ913.png"
+        },
+        "links": {
+          "project": "http://www.twitter.com/SandyPointGames"
+        }
+      },
+      {
         "name": "What the Cluck",
         "author": "Lauren Lizardo (Twitter: @laurenlizardo)",
         "images": {
