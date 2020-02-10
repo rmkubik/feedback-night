@@ -13,6 +13,17 @@
     "description": "We're going to be taking over the upstairs of <a href=\"https://pigsquad.com/events-list/2020/2/11/pigsquad-social-feedback-night\">the next PIGSquad Feedback Night!</a>",
     "projects": [
       {
+        "name": "What the Cluck",
+        "author": "Lauren Lizardo (Twitter: @laurenlizardo)",
+        "images": {
+          "thumbnail": "https://i.imgur.com/m1IKUk7.png",
+          "main": "https://i.imgur.com/m1IKUk7.png"
+        },
+        "links": {
+          "project": "https://globalgamejam.org/2020/games/what-cluck-4"
+        }
+      },
+      {
         "name": "Quick Craft [Prototype]",
         "author": "Tristan Damron (@tdamgames)",
         "images": {
