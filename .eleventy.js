@@ -2,6 +2,7 @@ const formatDate = require("date-fns/format");
 const isFutureDate = require("date-fns/isFuture");
 const isPastDate = require("date-fns/isPast");
 const parseDate = require("date-fns/parse");
+const addDays = require("date-fns/addDays");
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("css");
@@ -18,14 +19,18 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addPairedShortcode("IfFutureDate", function(content, date) {
-    if (isFutureDate(parseDate(date, "y-MM-dd", new Date()))) {
+    const dayAfter = addDays(parseDate(date, "y-MM-dd", new Date()), 1);
+
+    if (isFutureDate(dayAfter)) {
       return content;
     }
 
     return "";
   });
   eleventyConfig.addPairedShortcode("IfPastDate", function(content, date) {
-    if (isPastDate(parseDate(date, "y-MM-dd", new Date()))) {
+    const dayAfter = addDays(parseDate(date, "y-MM-dd", new Date()), 1);
+
+    if (isPastDate(dayAfter)) {
       return content;
     }
 
