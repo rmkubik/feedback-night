@@ -13,6 +13,28 @@
     "description": "We're going to be taking over the upstairs of <a href=\"https://pigsquad.com/events-list/2020/2/11/pigsquad-social-feedback-night\">the next PIGSquad Feedback Night!</a>",
     "projects": [
       {
+        "name": "Inscrutable Instructions",
+        "author": "Team AlienCargoCult",
+        "images": {
+          "thumbnail": "https://i.imgur.com/nwAcIt7.jpg",
+          "main": "https://i.imgur.com/nwAcIt7.jpg"
+        },
+        "links": {
+          "project": "https://globalgamejam.org/2020/games/inscrutable-instructions-0"
+        }
+      },
+      {
+        "name": "Robot Island",
+        "author": "@newbeings",
+        "images": {
+          "thumbnail": "https://img.itch.zone/aW1hZ2UvNTQ4MjU0LzI5MjEwOTgucG5n/794x1000/C3KoSk.png",
+          "main": "https://img.itch.zone/aW1hZ2UvNTQ4MjU0LzI5MjEwOTgucG5n/794x1000/C3KoSk.png"
+        },
+        "links": {
+          "project": "https://newbeings.itch.io/robot-island"
+        }
+      },
+      {
         "name": "Bug Fixers",
         "author": "@jonapulse, @XanDrakeArt, @ZealousJade, @retropetet",
         "images": {
